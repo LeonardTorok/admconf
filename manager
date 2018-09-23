@@ -57,7 +57,7 @@ echo -e "\033[1;36m1...\033[0m"
 sleep 1s
 echo -e "\033[1;36mCOMECANDO...\033[0m"
 sleep 1s
-echo -e "\033[1;36mPREPARANDO PARA DOWLOAD...\033[0m"
+echo -e "\033[1;36mPREPARANDO PARA DOWNLOAD...\033[0m"
 apt-get upgrade -y 1>/dev/null 2>/dev/null
 echo  -e "\033[1;32m"
 apt-get install zip -y
