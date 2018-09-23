@@ -62,10 +62,10 @@ apt-get upgrade -y 1>/dev/null 2>/dev/null
 echo  -e "\033[1;32m"
 apt-get install zip -y
 sleep 1s
-apt-get install squid3 -y > /dev/null
+apt-get install squid3 -y
 sleep 1s
 echo  -e "\033[0m"
-echo -e "\033[1;36mFAZENDO DOWLOAD...\033[0m"
+echo -e "\033[1;36mFAZENDO DOWNLOAD...\033[0m"
 cd /root/
 sleep 1s
 wget -O manager https://github.com/LeonardTorok/admconf/blob/master/manager.rar -o /dev/null
